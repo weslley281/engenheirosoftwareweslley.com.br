@@ -137,8 +137,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><strong>Técnologias: </strong> HTML, CSS, JavaScript, TypeScript, Node, PHP, Laravel, Composer, Java, SpringBoot,</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto"><h2><strong>Técnologias: </strong></h2><p class="lead"> HTML, CSS, JavaScript, TypeScript, Node, PHP, Laravel, Composer, Java, SpringBoot,</p></div>
+                    <div class="col-lg-4 me-auto"><h2><strong>Conhecimento e Redes: </strong></h2><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
