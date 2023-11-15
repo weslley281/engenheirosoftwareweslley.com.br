@@ -1,7 +1,5 @@
 <?php
-session_start();
 include_once "menu.php";
-include_once "../controllers/busca_repositorio_git.php";
 ?>
 <!-- Masthead-->
 <header class="masthead bg-primary text-white text-center">
@@ -24,14 +22,7 @@ include_once "../controllers/busca_repositorio_git.php";
 <!-- Portfolio Section-->
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
-        <?php
-        $repos = busca_repositorios();
-    foreach ($repos as $repo) {
-        echo "<p><strong>Nome:</strong> " . $repo['name'] . "<br>";
-        echo "<strong>Descrição:</strong> " . $repo['description'] . "<br>";
-        echo "<strong>URL:</strong> <a href='" . $repo['html_url'] . "' target='_blank'>" . $repo['html_url'] . "</a></p><hr>";
-    }
-?>
+
     </div>
 </section>
 <!-- About Section-->
@@ -94,7 +85,7 @@ include_once "../controllers/busca_repositorio_git.php";
 <section class="page-section" id="contact">
     <div class="container">
         <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
@@ -111,31 +102,31 @@ include_once "../controllers/busca_repositorio_git.php";
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="formContato">
                     <!-- Name input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                        <label for="name">Full name</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        <input class="form-control" id="nome" type="text" name="nome" data-sb-validations="required" />
+                        <label for="nome">Nome Completo: </label>
+                        <div class="invalid-feedback" data-sb-feedback="nome:required">O nome é obrigatório.</div>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                        <label for="email">Email address</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        <input class="form-control" id="email" type="email" name="email" data-sb-validations="required,email" />
+                        <label for="email">Email: </label>
+                        <div class="invalid-feedback" data-sb-feedback="email:required">O email é obrigatório.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido.</div>
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                        <label for="phone">Phone number</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        <input class="form-control" id="telefone" type="tel" name="telefone" data-sb-validations="required" />
+                        <label for="telefone">Telefone: </label>
+                        <div class="invalid-feedback" data-sb-feedback="telefone:required">O telefone é obrigatório.</div>
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                        <label for="message">Message</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        <textarea class="form-control" id="mensagem" type="text" style="height: 10rem" data-sb-validations="required"></textarea>
+                        <label for="mensagem">Mensagem</label>
+                        <div class="invalid-feedback" data-sb-feedback="mensagem:required">A mensagem é obrigatório.</div>
                     </div>
                     <!-- Submit success message-->
                     <!---->
@@ -143,24 +134,46 @@ include_once "../controllers/busca_repositorio_git.php";
                     <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
+                            <div class="fw-bolder">Formulário enviado!</div>
                             <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
                     </div>
                     <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro ao enviar mensagem!</div></div>
                     <!-- Submit Button-->
-                    <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                    <button class="btn btn-primary btn-xl"  type="submit">Enviar</button>
                 </form>
             </div>
         </div>
     </div>
-</section>        
+</section>
 <?php
 include_once "footer.php"
 ?>
+
+
+<script>
+            $(document).ready(function () {
+                $("#formContato").submit(function (event) {
+                    event.preventDefault();
+
+                    var formData = $(this).serialize();
+
+                    $.ajax({
+                        type: "POST",
+                        url: "../controllers/enviar.php",
+                        data: formData,
+                        success: function (response) {
+                            // Exibe mensagem de sucesso ou erro usando AlertifyJS
+                            alertify.success(response);
+                        },
+                        error: function () {
+                            alertify.error("Erro ao enviar a solicitação AJAX.");
+                        }
+                    });
+                });
+            });
+        </script>

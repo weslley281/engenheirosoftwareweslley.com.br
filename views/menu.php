@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -17,9 +20,12 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        
+
         <link href="../libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet" />
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <link rel="stylesheet" href="../libs/alertifyjs/css/alertify.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
