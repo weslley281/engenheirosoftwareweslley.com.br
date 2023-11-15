@@ -5,8 +5,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $telefone = $_POST["telefone"];
     $mensagem = $_POST["mensagem"];
 
-    if (empty($nome) || empty($email) || empty($telefone) || empty($mensagem)) {
-        echo "Preencha todos os campos.";
+    if (empty($nome)) {
+        echo "Preencha o campo nome";
+    } elseif (empty($email)) {
+        echo "Preencha o campo email";
+    } elseif (empty($telefone)) {
+        echo "Preencha o campo telefone";
+    } elseif (empty($mensagem)) {
+        echo "Preencha o campo mensagem.";
     } else {
         $destino = "weslleyhenrique800@gmail.com";
         $assunto = "Contato do site Engenheiro Weslley";

@@ -124,8 +124,8 @@ include_once "menu.php";
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" id="mensagem" type="text" style="height: 10rem" data-sb-validations="required"></textarea>
                         <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" type="text" style="height: 10rem" name="mensagem" data-sb-validations="required"></textarea>
                         <div class="invalid-feedback" data-sb-feedback="mensagem:required">A mensagem é obrigatório.</div>
                     </div>
                     <!-- Submit success message-->
