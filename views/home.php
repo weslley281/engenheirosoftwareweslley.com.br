@@ -32,7 +32,7 @@ include_once "menu.php";
         </div>
         <!-- About Section Content-->
         <div class="row">
-            <div class="col-lg-4 ms-auto"><h2><strong>Bootcamps Concluídos: </strong></h2>
+            <div class="col-12 ms-auto"><h2><strong>Bootcamps Concluídos: </strong></h2>
                 <ul>
                     <li><strong><a class="link-light" href="../files/NodeJS.pdf" target="_blank">NodeJS - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/ReactJS.pdf" target="_blank">ReactJS - Ignite - Rocketseat 🚀</a></strong></li>
@@ -41,18 +41,10 @@ include_once "menu.php";
                     <li><strong><a class="link-light" href="../files/Apps desktop com Electron.pdf" target="_blank">Apps desktop com Electron - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Code Update TQI - Backend com Kotlin e Java.pdf" target="_blank">Code Update TQI - Backend com Kotlin e Java - Digital Innovation One ☕</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Santander Bootcamp 2023 - Backend Java" target="_blank">Santander Bootcamp 2023 - Backend Java - Digital Innovation One 🌟</a></strong></li>
-                    <!--
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                    <li><strong><a class="link-light" href="../files/" target="_blank"></a></strong></li>
-                -->
             </ul>
         </div>
-        <div class="col-lg-4 ms-auto"><h2><strong>Cursos Proficionalizantes: </strong></h2>
+        <br>
+        <div class="col-12 ms-auto"><h2><strong>Cursos Proficionalizantes: </strong></h2>
             <ul>
                 <li><strong><a class="link-light" href="../files/Certificado Informatica.pdf" target="_blank">INFORMÁTICA BÁSICA - SENAC</a></strong></li>
                 <li><strong><a class="link-light" href="../files/certificado cebrac.jpg" target="_blank">Montagem e Manutenção de Computadores - CEBRAC</a></strong></li>
@@ -63,7 +55,6 @@ include_once "menu.php";
                 <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
             </ul>
         </div>
-    </div>
     <!-- About Section Button-->
     <!--
     <div class="text-center mt-4">
