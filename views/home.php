@@ -19,12 +19,6 @@ include_once "menu.php";
         <p class="masthead-subheading font-weight-light mb-0">Bacharel em Engenharia de Software 2022 - 2025</p>
     </div>
 </header>
-<!-- Portfolio Section-->
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-    </div>
-</section>
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
@@ -78,8 +72,65 @@ include_once "menu.php";
             Free Download!
         </a>
     </div>
-    -->
+-->
 </div>
+</section>
+<!-- Certifications Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Certificações</h2>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cerificação</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Ano</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Google IT Support</td>
+          <td>Google - Coursera</td>
+          <td>2022</td>
+      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>IBM Full Stack Software Developer</td>
+          <td>IBM - Coursera</td>
+          <td>2022</td>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+          <td>IBM Cybersecurity Analyst</td>
+          <td>IBM - Coursera</td>
+          <td>2023</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</section>
+<!-- Artcle Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Artigos</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://www.dio.me/articles/arquiterura-mvc" target="_blank">Arquiterura MVC</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/articles/conexao-com-o-banco-de-dados-com-php-mysqli" target="_blank">Conexão com o Banco de Dados com PHP Mysqli</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/articles/criacao-de-tabelas-no-banco-de-dados-usando-php" target="_blank">Criação de tabelas no banco de dados usando PHP</a></li>
+            <li class="list-group-item"><a href="hhttps://www.dio.me/articles/heranca-e-polimorfismo" target="_blank">Herança e Polimorfismo</a></li>
+        </ul>
+    </div>
+</section>
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Portifólio</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://kenshydokan.org.br" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
+        </ul>
+    </div>
 </section>
 <!-- Contact Section-->
 <section class="page-section" id="contact">
@@ -156,24 +207,24 @@ include_once "footer.php"
 
 
 <script>
-            $(document).ready(function () {
-                $("#formContato").submit(function (event) {
-                    event.preventDefault();
+    $(document).ready(function () {
+        $("#formContato").submit(function (event) {
+            event.preventDefault();
 
-                    var formData = $(this).serialize();
+            var formData = $(this).serialize();
 
-                    $.ajax({
-                        type: "POST",
-                        url: "../controllers/enviar.php",
-                        data: formData,
-                        success: function (response) {
+            $.ajax({
+                type: "POST",
+                url: "../controllers/enviar.php",
+                data: formData,
+                success: function (response) {
                             // Exibe mensagem de sucesso ou erro usando AlertifyJS
-                            alertify.success(response);
-                        },
-                        error: function () {
-                            alertify.error("Erro ao enviar a solicitação AJAX.");
-                        }
-                    });
-                });
+                    alertify.success(response);
+                },
+                error: function () {
+                    alertify.error("Erro ao enviar a solicitação AJAX.");
+                }
             });
-        </script>
+        });
+    });
+</script>
