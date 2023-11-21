@@ -7,7 +7,7 @@ include_once "menu.php";
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-5" src="../assets/img/avataaars.svg" alt="..." />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Engenheiro de Software Weslley Ferraz</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">Engenheiro de Software Weslley Henrique Vieira Ferraz</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
@@ -53,6 +53,16 @@ include_once "menu.php";
                 <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
                 <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
                 <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
+            </ul>
+        </div>
+        <br>
+        <div class="col-12 ms-auto"><h2><strong>Cursos Complementares: </strong></h2>
+            <ul>
+                <li><strong>Cod3r:</strong> Python, Javascript, C#, C++, Java e Kotlin.</li>
+                <li><strong>Gabriel Torres - Udemy:</strong> Arquitetura de Rede e Redes TCP/IP.</li>
+                <li><strong>EF English Live:</strong> EF Level 12 Upper Intermediate CEFR Level B2.</li>
+                <li><strong>Estudonalta:</strong> Redes de Computadores, Segurança da Informação, Arquitetura de Computadores, Java, C#,Linguagem C, Python, Android Studio, Linux, Wordpress, PHP, HTML, CSS MySQL e Kotlin.</li>
+                <li><strong>Rocketseat:</strong> Aplicações Descktop com Electron e Figma.</li>
             </ul>
         </div>
     <!-- About Section Button-->
@@ -107,6 +117,7 @@ include_once "menu.php";
     <div class="container">
         <h2>Artigos</h2>
         <ul class="list-group">
+            <li class="list-group-item"><a href="https://www.dio.me/en/articles/authenticacao-segura-com-php-puro" target="_blank">Authenticação Segura com PHP puro</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/articles/arquiterura-mvc" target="_blank">Arquiterura MVC</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/articles/conexao-com-o-banco-de-dados-com-php-mysqli" target="_blank">Conexão com o Banco de Dados com PHP Mysqli</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/articles/criacao-de-tabelas-no-banco-de-dados-usando-php" target="_blank">Criação de tabelas no banco de dados usando PHP</a></li>

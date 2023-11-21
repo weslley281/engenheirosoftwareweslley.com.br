@@ -6,11 +6,11 @@ session_start();
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Trabalho com tudo realacionado a software, redes e computadores" />
+        <meta name="description" content="Trabalho com tudo realacionado a desenvolvimento software, redes e manutenção decomputadores computadores" />
         <meta name="owner" content="Weslley Henrique Vieira Ferraz" />
         <meta name="author" content="Weslley Henrique Vieira Ferraz" />
         <meta name="copyright" content="Weslley Henrique Vieira Ferraz" />
-        <meta name="keywords" content="software,, desenvolvedor, programador, técnico, suporte, ti, engenharia, php, node, js, javascript, css, html, criação">
+        <meta name="keywords" content="software, desenvolvedor, programador, técnico, suporte, ti, redes, engenharia, php, node, js, javascript, css, html, criação, java, typescript, springboot, spring. laravel, composer">
         <title>Freelancer - Engenheiro de Software Weslley</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
