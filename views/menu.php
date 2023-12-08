@@ -13,7 +13,7 @@ session_start();
         <meta name="keywords" content="software, desenvolvedor, programador, técnico, suporte, ti, redes, engenharia, php, node, js, javascript, css, html, criação, java, typescript, springboot, spring. laravel, composer">
         <title>Freelancer - Engenheiro de Software Weslley</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="shortcut icon" href="../files/" type="image/x-icon">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -31,7 +31,7 @@ session_start();
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Weslley Ferraz</a>
+                <a class="navbar-brand bg-light rounded" href="#page-top"><img src="../files/logo-weslley-freelancer.png" height="80" width="80" class="img-fluid" alt="" srcset=""></a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>

@@ -14,15 +14,15 @@
             <!-- Footer Social Icons-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Redes Sociais</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/weslley.ferraz" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/weslleyhvferraz" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/weslley-henrique-vieira-ferraz-8b95b3127" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/weslley281" target="_blank"><i class="fab fa-fw fa-github"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://api.whatsapp.com/send/?phone=5565999157130&text=Olá%20Gostária%20de%20solicitar%20um%20orçamento&source=https://engenheirosoftwareweslley.com.br&preset=oi&lang=pt-br" target="_blank"><i class="fab fa-fw fa-whatsapp"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.estudonauta.com/aluno/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/estudonalta.png" alt="logo estudonalta"></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.dio.me/users/weslleyhenrique800" target="_blank"><img class="img-fluid" src="../files/dio.png" alt="logo da Digital Inovation One" title="Dio"></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.coursera.org/user/a69fe8a3c05b5e85a3fa4cbba6c3b992" target="_blank"><img class="img-fluid" src="../files/coursera.png" alt="logo da Coursera" title="Coursera"></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://app.rocketseat.com.br/me/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/rocketseat.png" alt="logo da Rocketseat" title="Rocketseat"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.facebook.com/weslley.ferraz" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://twitter.com/weslleyhvferraz" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.linkedin.com/in/weslley-henrique-vieira-ferraz-8b95b3127" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://github.com/weslley281" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://api.whatsapp.com/send/?phone=5565999157130&text=Olá%20Gostária%20de%20solicitar%20um%20orçamento&source=https://engenheirosoftwareweslley.com.br&preset=oi&lang=pt-br" target="_blank"><i class="fab fa-fw fa-whatsapp"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.estudonauta.com/aluno/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/estudonalta.png" alt="logo estudonalta"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.dio.me/users/weslleyhenrique800" target="_blank"><img class="img-fluid" src="../files/dio.png" alt="logo da Digital Inovation One" title="Dio"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.coursera.org/user/a69fe8a3c05b5e85a3fa4cbba6c3b992" target="_blank"><img class="img-fluid" src="../files/coursera.png" alt="logo da Coursera" title="Coursera"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://app.rocketseat.com.br/me/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/rocketseat.png" alt="logo da Rocketseat" title="Rocketseat"></a>
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">
