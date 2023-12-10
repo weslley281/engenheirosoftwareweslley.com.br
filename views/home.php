@@ -125,6 +125,7 @@ include_once "menu.php";
     <div class="container">
         <h2>Artigos</h2>
         <ul class="list-group">
+            <li class="list-group-item"><a href="https://www.dio.me/articles/chatboot-com-php" target="_blank">ChatBoot com PHP</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/en/articles/authenticacao-segura-com-php-puro" target="_blank">Authenticação Segura com PHP puro</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/articles/arquiterura-mvc" target="_blank">Arquiterura MVC</a></li>
             <li class="list-group-item"><a href="https://www.dio.me/articles/conexao-com-o-banco-de-dados-com-php-mysqli" target="_blank">Conexão com o Banco de Dados com PHP Mysqli</a></li>
