@@ -1,0 +1,23 @@
+{
+    "name": "ef/engenheirosoftwareweslley",
+    "description": "meu site pessoal com meus projetos",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ef\\Engenheirosoftwareweslley\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weslley Ferraz",
+            "email": "weslleyhenrique800@gmail.com"
+        }
+    ],
+    "require": {
+        "google/cloud-translate": "^1.16",
+        "twbs/bootstrap": "^5.3",
+        "components/jquery": "^3.7",
+        "components/font-awesome": "^6.4"
+    }
+}
