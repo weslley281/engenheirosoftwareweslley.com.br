@@ -56,24 +56,6 @@ include_once "menu.php";
             </ul>
         </div>
         <br>
-        <div class="col-12 ms-auto"><h2><strong>Cursos Complementares: </strong></h2>
-            <ul>
-                <li><strong>Cod3r:</strong> Python, Javascript, C#, C++, Java e Kotlin.</li>
-                <li><strong>Gabriel Torres - Udemy:</strong> Arquitetura de Rede e Redes TCP/IP.</li>
-                <li><strong>EF English Live:</strong> EF Level 12 Upper Intermediate CEFR Level B2.</li>
-                <li><strong>Estudonalta:</strong> Redes de Computadores, Segurança da Informação, Arquitetura de Computadores, Java, C#,Linguagem C, Python, Android Studio, Linux, Wordpress, PHP, HTML, CSS MySQL e Kotlin.</li>
-                <li><strong>Rocketseat:</strong> Aplicações Descktop com Electron e Figma.</li>
-            </ul>
-        </div>
-    <!-- About Section Button-->
-    <!--
-    <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-            <i class="fas fa-download me-2"></i>
-            Free Download!
-        </a>
-    </div>
--->
 </div>
 </section>
 <!-- Certifications Section-->
@@ -106,6 +88,32 @@ include_once "menu.php";
           <th scope="row">3</th>
           <td>IBM Cybersecurity Analyst</td>
           <td>IBM - Coursera</td>
+          <td>2023</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</section>
+<!-- Certifications Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Formações</h2>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Formações</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Horas</th>
+              <th scope="col">Ano</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Formação DevOps Fundamentals</td>
+          <td>Digital Innovation One</td>
+          <td>14 hrs</td>
           <td>2023</td>
       </tr>
   </tbody>
