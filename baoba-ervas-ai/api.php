@@ -8,7 +8,7 @@ function responderPergunta(string $pergunta): string
         $resposta = "";
         if (stripos($pergunta, 'varzea') !== false || stripos($pergunta, 'várzea') !== false) {
             $resposta = "Estamos abertos de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 14h.";
-        } elseif (stripos($pergunta, 'cuiaba') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'cuiabá') !== false) {
+        } elseif (stripos($pergunta, 'cuiaba') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'centro') !== false) {
             $resposta = "Estamos abertos de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 14h.";
         } elseif (stripos($pergunta, 'porto') !== false) {
             $resposta = "Estamos abertos de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 14h.";
@@ -23,7 +23,7 @@ function responderPergunta(string $pergunta): string
     } elseif (stripos($pergunta, 'localização') !== false || stripos($pergunta, 'localizacao') !== false || stripos($pergunta, 'Onde') !== false || stripos($pergunta, 'loja') !== false || stripos($pergunta, 'lojas') !== false) {
         if (stripos($pergunta, 'varzea') !== false || stripos($pergunta, 'várzea') !== false) {
             $resposta = "Estamos localizados na Avenida Couto Magalhães.";
-        } elseif (stripos($pergunta, 'cuiaba') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'cuiabá') !== false) {
+        } elseif (stripos($pergunta, 'cuiaba') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'cuiabá') !== false || stripos($pergunta, 'centro') !== false) {
             $resposta = "Rua Joaquin Murtinho, 319, Cidade Cuiabá.";
         } elseif (stripos($pergunta, 'porto') !== false) {
             $resposta = "Rua Feliciano Galdino, 585, Cidade Cuiabá.";
