@@ -116,6 +116,13 @@ include_once "menu.php";
           <td>14 hrs</td>
           <td>2023</td>
       </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Formação Scrum Master Certification</td>
+          <td>Digital Innovation One</td>
+          <td>22 hrs</td>
+          <td>2023</td>
+      </tr>
   </tbody>
 </table>
 </div>
