@@ -123,6 +123,13 @@ include_once "menu.php";
           <td>22 hrs</td>
           <td>2023</td>
       </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Formação AWS Cloud Practitioner Certification</td>
+          <td>Digital Innovation One</td>
+          <td>28 hrs</td>
+          <td>2023</td>
+      </tr>
   </tbody>
 </table>
 </div>
