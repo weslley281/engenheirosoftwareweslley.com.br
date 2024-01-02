@@ -137,6 +137,13 @@ include_once "menu.php";
           <td>28 hrs</td>
           <td>2024</td>
       </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>Formação Fundamentos de IA</td>
+          <td>Digital Innovation One</td>
+          <td>10 hrs</td>
+          <td>2024</td>
+      </tr>
   </tbody>
 </table>
 </div>
