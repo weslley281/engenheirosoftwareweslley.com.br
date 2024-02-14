@@ -58,6 +58,38 @@ include_once "menu.php";
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/data_center.jpg" alt="Manutenção de Servidores">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção de Servidores</h5>
+                        <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20manutenção%20no%20meu%20servidor" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/web.jpg" alt="Criação de Sites e Sistemas Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de Sites e Sistemas Web</h5>
+                        <p class="card-text">Desenvolvimento de sites e sistemas web através da programação utilizando as melhores técnologias do mercado.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20a%20criação%20de%20um%20sistema%20web" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/android.png" alt="Criação de Apps">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de Apps</h5>
+                        <p class="card-text">Desenvolvimento de aplicativos para celulares e tablets através da programação utilizando as melhores técnologias do mercado.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20a%20criação%20de%20um%20aplicativo" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

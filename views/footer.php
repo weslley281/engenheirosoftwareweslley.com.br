@@ -6,9 +6,9 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Localização</h4>
                 <p class="lead mb-0">
-                    Rua Moisés, 30 - Paiaguas
+                    Rua Groelândia, E5 - Novo Mundo
                     <br />
-                    Várzea Grande, MT 78148-804
+                    Várzea Grande, MT 78148-150
                 </p>
             </div>
             <!-- Footer Social Icons-->
@@ -28,7 +28,7 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">Sobre Mim</h4>
                 <p class="lead mb-0">
-                    Sou um grande estudante da área de técnologia como um todo
+                    Sou um grande estudante da área de técnologia como um todo, converse comigo pelo
                     <a href="https://api.whatsapp.com/send/?phone=5565999157130">whatsapp clicando aqui</a>
                     .
                 </p>
