@@ -32,7 +32,8 @@ include_once "menu.php";
         </div>
         <!-- About Section Content-->
         <div class="row">
-            <div class="col-12 ms-auto"><h2><strong>Bootcamps Concluídos: </strong></h2>
+            <div class="col-12 ms-auto">
+                <h2><strong>Bootcamps Concluídos: </strong></h2>
                 <ul>
                     <li><strong><a class="link-light" href="../files/NodeJS.pdf" target="_blank">NodeJS - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/ReactJS.pdf" target="_blank">ReactJS - Ignite - Rocketseat 🚀</a></strong></li>
@@ -41,84 +42,92 @@ include_once "menu.php";
                     <li><strong><a class="link-light" href="../files/Apps desktop com Electron.pdf" target="_blank">Apps desktop com Electron - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Code Update TQI - Backend com Kotlin e Java.pdf" target="_blank">Code Update TQI - Backend com Kotlin e Java - Digital Innovation One ☕</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Santander Bootcamp 2023 - Backend Java" target="_blank">Santander Bootcamp 2023 - Backend Java - Digital Innovation One 🌟</a></strong></li>
-            </ul>
+                </ul>
+            </div>
+            <br>
+            <div class="col-12 ms-auto">
+                <h2><strong>Cursos Proficionalizantes: </strong></h2>
+                <ul>
+                    <li><strong><a class="link-light" href="../files/Certificado Informatica.pdf" target="_blank">INFORMÁTICA BÁSICA - SENAC</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/certificado cebrac.jpg" target="_blank">Montagem e Manutenção de Computadores - CEBRAC</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/Redes de Computadores Estacio.pdf" target="_blank">Redes de Computadores - Estácio</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/Configs de Rede em Linux Windows.pdf" target="_blank">Configs de Rede em Linux Windows - DlteC do Brasil </a></strong></li>
+                    <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
+                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
+                </ul>
+            </div>
+            <br>
         </div>
-        <br>
-        <div class="col-12 ms-auto"><h2><strong>Cursos Proficionalizantes: </strong></h2>
-            <ul>
-                <li><strong><a class="link-light" href="../files/Certificado Informatica.pdf" target="_blank">INFORMÁTICA BÁSICA - SENAC</a></strong></li>
-                <li><strong><a class="link-light" href="../files/certificado cebrac.jpg" target="_blank">Montagem e Manutenção de Computadores - CEBRAC</a></strong></li>
-                <li><strong><a class="link-light" href="../files/Redes de Computadores Estacio.pdf" target="_blank">Redes de Computadores - Estácio</a></strong></li>
-                <li><strong><a class="link-light" href="../files/Configs de Rede em Linux Windows.pdf" target="_blank">Configs de Rede em Linux Windows - DlteC do Brasil </a></strong></li>
-                <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
-                <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
-                <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
-            </ul>
-        </div>
-        <br>
-</div>
 </section>
 <!-- Certifications Section-->
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
         <h2>Certificações</h2>
         <table class="table table-hover">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Cerificação</th>
-              <th scope="col">Empresa</th>
-              <th scope="col">Ano</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Google IT Support</td>
-          <td>Google - Coursera</td>
-          <td>2022</td>
-      </tr>
-      <tr>
-          <th scope="row">2</th>
-          <td>IBM Full Stack Software Developer</td>
-          <td>IBM - Coursera</td>
-          <td>2022</td>
-      </tr>
-      <tr>
-          <th scope="row">3</th>
-          <td>IBM Cybersecurity Analyst</td>
-          <td>IBM - Coursera</td>
-          <td>2023</td>
-      </tr>
-  </tbody>
-</table>
-</div>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Cerificação</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Network Engineering</td>
+                    <td>Akamai - Coursera</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>IBM Cybersecurity Analyst</td>
+                    <td>IBM - Coursera</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Google IT Support</td>
+                    <td>Google - Coursera</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>IBM Full Stack Software Developer</td>
+                    <td>IBM - Coursera</td>
+                    <td>2022</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
 </section>
 <!-- Certifications Section-->
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
         <h2>Formações</h2>
         <table class="table table-hover">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Formações</th>
-              <th scope="col">Empresa</th>
-              <th scope="col">Horas</th>
-              <th scope="col">Ano</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Formação DevOps Fundamentals</td>
-          <td>Digital Innovation One</td>
-          <td>14 hrs</td>
-          <td>2023</td>
-      </tr>
-  </tbody>
-</table>
-</div>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Formações</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Horas</th>
+                    <th scope="col">Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Formação DevOps Fundamentals</td>
+                    <td>Digital Innovation One</td>
+                    <td>14 hrs</td>
+                    <td>2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </section>
 <!-- Artcle Section-->
 <section class="page-section portfolio" id="portfolio">
@@ -204,9 +213,11 @@ include_once "menu.php";
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro ao enviar mensagem!</div></div>
+                    <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">Erro ao enviar mensagem!</div>
+                    </div>
                     <!-- Submit Button-->
-                    <button class="btn btn-primary btn-xl"  type="submit">Enviar</button>
+                    <button class="btn btn-primary btn-xl" type="submit">Enviar</button>
                 </form>
             </div>
         </div>
@@ -218,8 +229,8 @@ include_once "footer.php"
 
 
 <script>
-    $(document).ready(function () {
-        $("#formContato").submit(function (event) {
+    $(document).ready(function() {
+        $("#formContato").submit(function(event) {
             event.preventDefault();
 
             var formData = $(this).serialize();
@@ -228,11 +239,11 @@ include_once "footer.php"
                 type: "POST",
                 url: "../controllers/enviar.php",
                 data: formData,
-                success: function (response) {
-                            // Exibe mensagem de sucesso ou erro usando AlertifyJS
+                success: function(response) {
+                    // Exibe mensagem de sucesso ou erro usando AlertifyJS
                     alertify.success(response);
                 },
-                error: function () {
+                error: function() {
                     alertify.error("Erro ao enviar a solicitação AJAX.");
                 }
             });
