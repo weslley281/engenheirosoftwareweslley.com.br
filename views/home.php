@@ -17,9 +17,10 @@ include_once "menu.php";
         <!-- Masthead Subheading-->
         <div class="bg-light rounded py-2 px-2"><img src="../files/estacio-logo.png" class="img-fluid" height="50" width="100" /></div>
 
-        <p class="masthead-subheading font-weight-light mb-0">Técnico em Manutenções de Computadores 2017</p>
-        <p class="masthead-subheading font-weight-light mb-0">Técnico em Redes de Computadores - 2024</p>
-        <p class="masthead-subheading font-weight-light mb-0">Bacharel em Engenharia de Software 2022 - 2025</p>
+        <p class="masthead-subheading font-weight-light mb-0">Técnico em Informática</p>
+        <p class="masthead-subheading font-weight-light mb-0">Técnico em Manutenções de Computadores</p>
+        <p class="masthead-subheading font-weight-light mb-0">Técnico em Redes de Computadores</p>
+        <p class="masthead-subheading font-weight-light mb-0">Engenheiro de Software</p>
     </div>
 </header>
 
@@ -93,6 +94,210 @@ include_once "menu.php";
     </div>
 </section>
 
+<!-- Certifications Section-->
+<section class="page-section portfolio">
+    <div class="container">
+        <h2>Certificações</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Cerificação</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programa AWS re/Start</td>
+                    <td>Escola da Nuvem</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>ADMINISTRAÇÃO DE REDES - CBO 2123-10</td>
+                    <td>CPET - CENTRO DE PROFISSIONALIZAÇÃO E EDUCAÇÃO TÉCNICA</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Network Engineering</td>
+                    <td>Akamai - Coursera</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Google IT Support</td>
+                    <td>Google - Coursera</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Cybersecurity Analyst</td>
+                    <td>IBM - Coursera</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Full Stack Software Developer</td>
+                    <td>IBM - Coursera</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>PROGRAMAÇÃO DE SISTEMAS DE INFORMAÇÃO</td>
+                    <td>Estácio - Empregabilidade</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>APLICAÇÃO DA MELHORIA CONTÍNUA</td>
+                    <td>Estácio - Empregabilidade</td>
+                    <td>2024</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Formations Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Formações</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Formações</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Horas</th>
+                    <th scope="col">Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bacharel Engenharia de Software</td>
+                    <td>Universidade Estácio de Sá</td>
+                    <td>3.798 hrs</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Técnico em Redes de Computadores</td>
+                    <td>CPET - CENTRO DE PROFISSIONALIZAÇÃO E EDUCAÇÃO TÉCNICA</td>
+                    <td>1200 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Programador Web</td>
+                    <td>Instituto Federal de Educação, Ciência e Tecnologia - IF</td>
+                    <td>200 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Montagem e Manutenção de Computadores</td>
+                    <td>Centro Brasileiro de Cursos - CEBRAC</td>
+                    <td>64 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Node JS</td>
+                    <td>Rocketseat - Ignite</td>
+                    <td>100 hrs</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>React Native</td>
+                    <td>Rocketseat - Ignite</td>
+                    <td>100 hrs</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>React JS</td>
+                    <td>Rocketseat - Ignite</td>
+                    <td>100 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>INFORMÁTICA BÁSICA COM INTERNET E MÍDIAS SOCIAIS</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>160 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Formação DevOps Fundamentals</td>
+                    <td>Digital Innovation One</td>
+                    <td>14 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Formação Scrum Master Certification</td>
+                    <td>Digital Innovation One</td>
+                    <td>22 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Formação AWS Cloud Practitioner Certification</td>
+                    <td>Digital Innovation One</td>
+                    <td>28 hrs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Formação Web3 Fundamentals</td>
+                    <td>Digital Innovation One</td>
+                    <td>28 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Formação Fundamentos de IA</td>
+                    <td>Digital Innovation One</td>
+                    <td>10 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Formação PHP Experience</td>
+                    <td>Digital Innovation One</td>
+                    <td>40 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>VENDEDOR</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>175 hrs</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>TÉCNICAS DE LIDERANÇA</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>20 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>EXCEL - RECURSOS BÁSICOS</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>25 hrs</td>
+                    <td>2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Artcle Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Artigos</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://www.dio.me/articles/chatboot-com-php" target="_blank">ChatBoot com PHP</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/en/articles/authenticacao-segura-com-php-puro" target="_blank">Authenticação Segura com PHP puro</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/articles/arquiterura-mvc" target="_blank">Arquiterura MVC</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/articles/conexao-com-o-banco-de-dados-com-php-mysqli" target="_blank">Conexão com o Banco de Dados com PHP Mysqli</a></li>
+            <li class="list-group-item"><a href="https://www.dio.me/articles/criacao-de-tabelas-no-banco-de-dados-usando-php" target="_blank">Criação de tabelas no banco de dados usando PHP</a></li>
+            <li class="list-group-item"><a href="hhttps://www.dio.me/articles/heranca-e-polimorfismo" target="_blank">Herança e Polimorfismo</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <h2>Portifólio</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://kenshydokan.org.br" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
+        </ul>
+    </div>
+</section>
 
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
@@ -130,103 +335,14 @@ include_once "menu.php";
                     <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
                     <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
                     <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">Estatística - Escola Nacional de Administração Pública</a></strong></li>
+                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">Matemática Financeira - Escola Nacional de Administração Pública</a></strong></li>
                 </ul>
             </div>
             <br>
         </div>
 </section>
-<!-- Certifications Section-->
-<section class="page-section portfolio">
-    <div class="container">
-        <h2>Certificações</h2>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Cerificação</th>
-                    <th scope="col">Empresa</th>
-                    <th scope="col">Ano</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Network Engineering</td>
-                    <td>Akamai - Coursera</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>IBM Cybersecurity Analyst</td>
-                    <td>IBM - Coursera</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Google IT Support</td>
-                    <td>Google - Coursera</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>IBM Full Stack Software Developer</td>
-                    <td>IBM - Coursera</td>
-                    <td>2022</td>
-                </tr>
 
-            </tbody>
-        </table>
-    </div>
-</section>
-<!-- Certifications Section-->
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
-        <h2>Formações</h2>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Formações</th>
-                    <th scope="col">Empresa</th>
-                    <th scope="col">Horas</th>
-                    <th scope="col">Ano</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Formação DevOps Fundamentals</td>
-                    <td>Digital Innovation One</td>
-                    <td>14 hrs</td>
-                    <td>2023</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-<!-- Artcle Section-->
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
-        <h2>Artigos</h2>
-        <ul class="list-group">
-            <li class="list-group-item"><a href="https://www.dio.me/articles/chatboot-com-php" target="_blank">ChatBoot com PHP</a></li>
-            <li class="list-group-item"><a href="https://www.dio.me/en/articles/authenticacao-segura-com-php-puro" target="_blank">Authenticação Segura com PHP puro</a></li>
-            <li class="list-group-item"><a href="https://www.dio.me/articles/arquiterura-mvc" target="_blank">Arquiterura MVC</a></li>
-            <li class="list-group-item"><a href="https://www.dio.me/articles/conexao-com-o-banco-de-dados-com-php-mysqli" target="_blank">Conexão com o Banco de Dados com PHP Mysqli</a></li>
-            <li class="list-group-item"><a href="https://www.dio.me/articles/criacao-de-tabelas-no-banco-de-dados-usando-php" target="_blank">Criação de tabelas no banco de dados usando PHP</a></li>
-            <li class="list-group-item"><a href="hhttps://www.dio.me/articles/heranca-e-polimorfismo" target="_blank">Herança e Polimorfismo</a></li>
-        </ul>
-    </div>
-</section>
-<!-- Portfolio Section-->
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
-        <h2>Portifólio</h2>
-        <ul class="list-group">
-            <li class="list-group-item"><a href="https://kenshydokan.org.br" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
-        </ul>
-    </div>
-</section>
 <!-- Contact Section-->
 <section class="page-section" id="contact">
     <div class="container">
