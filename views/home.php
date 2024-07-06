@@ -7,7 +7,7 @@ include_once "menu.php";
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-5" src="../assets/img/avataaars.svg" alt="..." />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Engenheiro de Software Weslley Henrique Vieira Ferraz</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">Weslley Henrique Vieira Ferraz</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
@@ -16,9 +16,84 @@ include_once "menu.php";
         </div>
         <!-- Masthead Subheading-->
         <div class="bg-light rounded py-2 px-2"><img src="../files/estacio-logo.png" class="img-fluid" height="50" width="100" /></div>
+
+        <p class="masthead-subheading font-weight-light mb-0">Técnico em Manutenções de Computadores 2017</p>
+        <p class="masthead-subheading font-weight-light mb-0">Técnico em Redes de Computadores - 2024</p>
         <p class="masthead-subheading font-weight-light mb-0">Bacharel em Engenharia de Software 2022 - 2025</p>
     </div>
 </header>
+
+<!-- Portifolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/reparo_computador.jpg" alt="Reparo de Computador">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção de Computadores</h5>
+                        <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20manutenção%20do%20meu%20computador" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/reparo_notebook.jpg" alt="Reparo de Notebook">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção de Notebooks</h5>
+                        <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20manutenção%20do%20meu%20notebook" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/rede_computadores.jpg" alt="Manutenção de Redes de Computadores">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção de Redes de Computadores</h5>
+                        <p class="card-text">Troca, limpeza e melhorias de componentes como: cabos, roteadores, switches, conectores, repetidores em geral.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20manutenção%20na%20minha%20rede%20de%20computadores" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/data_center.jpg" alt="Manutenção de Servidores">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção de Servidores</h5>
+                        <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20manutenção%20no%20meu%20servidor" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/web.jpg" alt="Criação de Sites e Sistemas Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de Sites e Sistemas Web</h5>
+                        <p class="card-text">Desenvolvimento de sites e sistemas web através da programação utilizando as melhores técnologias do mercado.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20a%20criação%20de%20um%20sistema%20web" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/android.png" alt="Criação de Apps">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de Apps</h5>
+                        <p class="card-text">Desenvolvimento de aplicativos para celulares e tablets através da programação utilizando as melhores técnologias do mercado.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5565981233996&text=Ola%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20a%20criação%20de%20um%20aplicativo" class="btn btn-primary" target="_blank">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
@@ -61,7 +136,7 @@ include_once "menu.php";
         </div>
 </section>
 <!-- Certifications Section-->
-<section class="page-section portfolio" id="portfolio">
+<section class="page-section portfolio">
     <div class="container">
         <h2>Certificações</h2>
         <table class="table table-hover">
