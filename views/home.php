@@ -24,8 +24,8 @@ include_once "menu.php";
     </div>
 </header>
 
-<!-- Portifolio Section-->
-<section class="page-section portfolio" id="portfolio">
+<!-- Services Section-->
+<section id="services" class="page-section portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
@@ -95,7 +95,7 @@ include_once "menu.php";
 </section>
 
 <!-- Certifications Section-->
-<section class="page-section portfolio">
+<section id="Certifications" class="page-section portfolio">
     <div class="container">
         <h2>Certificações</h2>
         <table class="table table-hover">
@@ -154,7 +154,7 @@ include_once "menu.php";
 </section>
 
 <!-- Formations Section-->
-<section class="page-section portfolio" id="portfolio">
+<section id="formations" class="page-section portfolio" id="portfolio">
     <div class="container">
         <h2>Formações</h2>
         <table class="table table-hover">
@@ -216,36 +216,6 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
-                    <td>Formação DevOps Fundamentals</td>
-                    <td>Digital Innovation One</td>
-                    <td>14 hrs</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Formação Scrum Master Certification</td>
-                    <td>Digital Innovation One</td>
-                    <td>22 hrs</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Formação AWS Cloud Practitioner Certification</td>
-                    <td>Digital Innovation One</td>
-                    <td>28 hrs</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Formação Web3 Fundamentals</td>
-                    <td>Digital Innovation One</td>
-                    <td>28 hrs</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>Formação Fundamentos de IA</td>
-                    <td>Digital Innovation One</td>
-                    <td>10 hrs</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
                     <td>Formação PHP Experience</td>
                     <td>Digital Innovation One</td>
                     <td>40 hrs</td>
@@ -275,7 +245,7 @@ include_once "menu.php";
 </section>
 
 <!-- Artcle Section-->
-<section class="page-section portfolio" id="portfolio">
+<section id="artcle" class="page-section portfolio" id="portfolio">
     <div class="container">
         <h2>Artigos</h2>
         <ul class="list-group">
@@ -295,6 +265,8 @@ include_once "menu.php";
         <h2>Portifólio</h2>
         <ul class="list-group">
             <li class="list-group-item"><a href="https://kenshydokan.org.br" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
+            <li class="list-group-item"><a href="https://github.com/weslley281/Academia-e-Dojo" target="_blank">Sistema para Dojos</a></li>
+            <li class="list-group-item"><a href="https://github.com/weslley281/baoba_ervas" target="_blank">Aplicativo Mobile Baoba Brasil Ervas</a></li>
         </ul>
     </div>
 </section>
@@ -315,10 +287,6 @@ include_once "menu.php";
             <div class="col-12 ms-auto">
                 <h2><strong>Bootcamps Concluídos: </strong></h2>
                 <ul>
-                    <li><strong><a class="link-light" href="../files/NodeJS.pdf" target="_blank">NodeJS - Ignite - Rocketseat 🚀</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/ReactJS.pdf" target="_blank">ReactJS - Ignite - Rocketseat 🚀</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/React Native.pdf" target="_blank">React Native - Ignite - Rocketseat 🚀</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/Figma.pdf" target="_blank">Figma - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Apps desktop com Electron.pdf" target="_blank">Apps desktop com Electron - Ignite - Rocketseat 🚀</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Code Update TQI - Backend com Kotlin e Java.pdf" target="_blank">Code Update TQI - Backend com Kotlin e Java - Digital Innovation One ☕</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Santander Bootcamp 2023 - Backend Java" target="_blank">Santander Bootcamp 2023 - Backend Java - Digital Innovation One 🌟</a></strong></li>
@@ -328,9 +296,6 @@ include_once "menu.php";
             <div class="col-12 ms-auto">
                 <h2><strong>Cursos Proficionalizantes: </strong></h2>
                 <ul>
-                    <li><strong><a class="link-light" href="../files/Certificado Informatica.pdf" target="_blank">INFORMÁTICA BÁSICA - SENAC</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/certificado cebrac.jpg" target="_blank">Montagem e Manutenção de Computadores - CEBRAC</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/Redes de Computadores Estacio.pdf" target="_blank">Redes de Computadores - Estácio</a></strong></li>
                     <li><strong><a class="link-light" href="../files/Configs de Rede em Linux Windows.pdf" target="_blank">Configs de Rede em Linux Windows - DlteC do Brasil </a></strong></li>
                     <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
                     <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
