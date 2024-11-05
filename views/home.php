@@ -2,8 +2,10 @@
 include_once "menu.php";
 ?>
 <!-- Masthead-->
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
+<br>
+<br>
+<header class="masthead bg-primary text-white text-center mt-5">
+    <div class="container d-flex align-items-center flex-column mt-5">
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-5" src="../assets/img/avataaars.svg" alt="..." />
         <!-- Masthead Heading-->
@@ -17,15 +19,15 @@ include_once "menu.php";
         <!-- Masthead Subheading-->
         <div class="bg-light rounded py-2 px-2"><img src="../files/estacio-logo.png" class="img-fluid" height="50" width="100" /></div>
 
-        <p class="masthead-subheading font-weight-light mb-0">Técnico em Informática</p>
-        <p class="masthead-subheading font-weight-light mb-0">Técnico em Manutenções de Computadores</p>
-        <p class="masthead-subheading font-weight-light mb-0">Técnico em Redes de Computadores</p>
-        <p class="masthead-subheading font-weight-light mb-0">Engenheiro de Software</p>
+        <p class="masthead-subheading font-weight-light mb-2">Técnico em Informática</p>
+        <p class="masthead-subheading font-weight-light mb-2">Técnico em Manutenções de Computadores</p>
+        <p class="masthead-subheading font-weight-light mb-2">Técnico em Redes de Computadores</p>
+        <p class="masthead-subheading font-weight-light mb-2">Engenheiro de Software</p>
     </div>
 </header>
 
 <!-- Services Section-->
-<section id="services" class="page-section portfolio">
+<section id="services" class="page-section portfolio mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
@@ -180,6 +182,18 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
+                    <td>Nivelamento e o Básico</td>
+                    <td>Hackers do Bem</td>
+                    <td>80 + 64 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Desenvolvimento Front-End</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>96 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
                     <td>Programador Web</td>
                     <td>Instituto Federal de Educação, Ciência e Tecnologia - IF</td>
                     <td>200 hrs</td>
@@ -216,27 +230,9 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
-                    <td>Formação PHP Experience</td>
-                    <td>Digital Innovation One</td>
-                    <td>40 hrs</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>VENDEDOR</td>
-                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
-                    <td>175 hrs</td>
-                    <td>2015</td>
-                </tr>
-                <tr>
                     <td>TÉCNICAS DE LIDERANÇA</td>
                     <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
                     <td>20 hrs</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>EXCEL - RECURSOS BÁSICOS</td>
-                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
-                    <td>25 hrs</td>
                     <td>2024</td>
                 </tr>
             </tbody>
@@ -264,9 +260,9 @@ include_once "menu.php";
     <div class="container">
         <h2>Portifólio</h2>
         <ul class="list-group">
-            <li class="list-group-item"><a href="https://kenshydokan.org.br" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
+            <li class="list-group-item"><a href="https://kenshydokan.com" target="_blank">Aplicação Web da Federação de Karatê de Contato do Estado de Mato Grosso</a></li>
+            <li class="list-group-item"><a href="https://baobaervas.com.br" target="_blank">Aplicação Web para a Baobá Brasil Ervas</a></li>
             <li class="list-group-item"><a href="https://github.com/weslley281/Academia-e-Dojo" target="_blank">Sistema para Dojos</a></li>
-            <li class="list-group-item"><a href="https://github.com/weslley281/baoba_ervas" target="_blank">Aplicativo Mobile Baoba Brasil Ervas</a></li>
         </ul>
     </div>
 </section>
@@ -306,6 +302,7 @@ include_once "menu.php";
             </div>
             <br>
         </div>
+    </div>
 </section>
 
 <!-- Contact Section-->
@@ -382,27 +379,3 @@ include_once "menu.php";
 <?php
 include_once "footer.php"
 ?>
-
-
-<script>
-    $(document).ready(function() {
-        $("#formContato").submit(function(event) {
-            event.preventDefault();
-
-            var formData = $(this).serialize();
-
-            $.ajax({
-                type: "POST",
-                url: "../controllers/enviar.php",
-                data: formData,
-                success: function(response) {
-                    // Exibe mensagem de sucesso ou erro usando AlertifyJS
-                    alertify.success(response);
-                },
-                error: function() {
-                    alertify.error("Erro ao enviar a solicitação AJAX.");
-                }
-            });
-        });
-    });
-</script>

@@ -22,31 +22,37 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
 
-    <link href="../libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/styles.css" rel="stylesheet" />
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="../libs/alertifyjs/css/alertify.css">
+    <link href="../libs/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="../libs/alertifyjs/css/alertify.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand bg-light rounded" href="#page-top"><img src="../files/logo-weslley-freelancer.png" height="80" width="80" class="img-fluid" alt="" srcset=""></a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#services">Serviços</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Certifications">Certificações</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#formations">Formações</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#artcle">Artigos</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contato</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light text-uppercase fixed-top bg-secondary">
+        <a class="navbar-brand bg-light rounded" href="#"><img src="../files/logo-weslley-freelancer.png" height="80" width="80" class="img-fluid" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link rounded" href="#services">
+                        <p class="text-white">Serviços</p>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link rounded" href="#portfolio">
+                        <p class="text-white">Portfolio</p>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link rounded" href="#Certifications">
+                        <p class="text-white">Certificações</p>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link rounded" href="#formations">
+                        <p class="text-white">Formações</p>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link rounded" href="#artcle">
+                        <p class="text-white">Artigos</p>
+                    </a></li>
+                <li class="nav-item"><a class="nav-link rounded" href="#contact">
+                        <p class="text-white">Contato</p>
+                    </a></li>
+            </ul>
         </div>
     </nav>

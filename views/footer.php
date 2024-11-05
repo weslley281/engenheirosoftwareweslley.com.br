@@ -38,48 +38,71 @@
 </footer>
 <!-- Copyright Section-->
 <div class="copyright py-4 text-center text-white">
-    <div class="container"><small>Copyright &copy; Engenheiro de Software Weslley <?php date("Y")?></small></div>
+    <div class="container"><small>Copyright &copy; Engenheiro de Software Weslley <?php date("Y") ?></small></div>
 </div>
+
+<script src="../libs/bootstrap/jquery.js"></script>
+<script src="../libs/bootstrap/popper.js"></script>
+<script src="../libs/bootstrap/bootstrap.js"></script>
 <script src="../libs/alertifyjs/alertify.js"></script>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
 <script src="../libs/tinymce/tinymce.min.js"></script>
 
 <script>
-  tinymce.init({
-    selector: 'textarea',
-    plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
-    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
-    language: 'pt_BR',
-});
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        language: 'pt_BR',
+    });
 </script>
 <!-- Scripts de Telefone -->
 <script type="text/javascript">
-  function mask(o, f) {
-     setTimeout(function() {
-        var v = mphone(o.value);
-        if (v != o.value) {
-           o.value = v;
-       }
-   }, 1);
- }
-
- function mphone(v) {
-     var r = v.replace(/\D/g, "");
-     r = r.replace(/^0/, "");
-     if (r.length > 10) {
-				r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
-     } else if (r.length > 5) {
-				r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
-     } else if (r.length > 2) {
-        r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
-    } else {
-        r = r.replace(/^(\d*)/, "($1");
+    function mask(o, f) {
+        setTimeout(function() {
+            var v = mphone(o.value);
+            if (v != o.value) {
+                o.value = v;
+            }
+        }, 1);
     }
-    return r;
-}
+
+    function mphone(v) {
+        var r = v.replace(/\D/g, "");
+        r = r.replace(/^0/, "");
+        if (r.length > 10) {
+            r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+        } else if (r.length > 5) {
+            r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+        } else if (r.length > 2) {
+            r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+        } else {
+            r = r.replace(/^(\d*)/, "($1");
+        }
+        return r;
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#formContato").submit(function(event) {
+            event.preventDefault();
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "../controllers/enviar.php",
+                data: formData,
+                success: function(response) {
+                    // Exibe mensagem de sucesso ou erro usando AlertifyJS
+                    alertify.success(response);
+                },
+                error: function() {
+                    alertify.error("Erro ao enviar a solicitação AJAX.");
+                }
+            });
+        });
+    });
 </script>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 <!-- * *                               SB Forms JS                               * *-->
@@ -87,4 +110,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
+
 </html>
