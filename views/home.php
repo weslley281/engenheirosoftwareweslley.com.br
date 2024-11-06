@@ -4,30 +4,31 @@ include_once "menu.php";
 <!-- Masthead-->
 <br>
 <br>
-<header class="masthead bg-primary text-white text-center mt-5">
-    <div class="container d-flex align-items-center flex-column mt-5">
-        <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" src="../assets/img/avataaars.svg" alt="..." />
-        <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Weslley Henrique Vieira Ferraz</h1>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
+
+<!-- Seção Sobre -->
+<section id="sobre" class="container my-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="../assets/img/avataaars.svg" alt="Foto de Weslley Henrique" class="img-fluid rounded-circle">
         </div>
-        <!-- Masthead Subheading-->
-        <div class="bg-light rounded py-2 px-2"><img src="../files/estacio-logo.png" class="img-fluid" height="50" width="100" /></div>
-
-        <p class="masthead-subheading font-weight-light mb-2">Técnico em Informática</p>
-        <p class="masthead-subheading font-weight-light mb-2">Técnico em Manutenções de Computadores</p>
-        <p class="masthead-subheading font-weight-light mb-2">Técnico em Redes de Computadores</p>
-        <p class="masthead-subheading font-weight-light mb-2">Engenheiro de Software</p>
+        <div class="col-md-8">
+            <h2 class="section-title text-center">Sobre Mim</h2>
+            <h1 class="masthead-heading text-uppercase mb-0">Weslley Henrique Vieira Ferraz</h1>
+            <div class="alert alert-secondary my-1" role="alert">
+                <h4>Olá! Sou Weslley Henrique, programador com experiência em backend e infraestrutura de redes. Tenho paixão por desenvolvimento de software e sempre busco aprender novas tecnologias.</h4>
+            </div>
+            <!-- Masthead Subheading-->
+            <div class="bg-light rounded py-2 px-2"><img src="../files/estacio-logo.png" class="img-fluid" height="50" width="100" /></div>
+            <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Informática</strong></p>
+            <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Manutenções de Computadores</strong></p>
+            <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Redes de Computadores</strong></p>
+            <p class="masthead-subheading font-weight-light mb-2"><strong>Engenheiro de Software</strong></p>
+        </div>
     </div>
-</header>
+</section>
 
-<!-- Services Section-->
-<section id="services" class="page-section portfolio mt-5">
+<!-- Seção Serviços -->
+<section id="servicos" class="container my-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
@@ -97,7 +98,7 @@ include_once "menu.php";
 </section>
 
 <!-- Certifications Section-->
-<section id="Certifications" class="page-section portfolio">
+<section id="certificacao" class="page-section portfolio">
     <div class="container">
         <h2>Certificações</h2>
         <table class="table table-hover">
@@ -155,8 +156,8 @@ include_once "menu.php";
     </div>
 </section>
 
-<!-- Formations Section-->
-<section id="formations" class="page-section portfolio" id="portfolio">
+<!-- Seção Formação -->
+<section id="formacao" class="bg-light py-5">
     <div class="container">
         <h2>Formações</h2>
         <table class="table table-hover">
@@ -241,7 +242,7 @@ include_once "menu.php";
 </section>
 
 <!-- Artcle Section-->
-<section id="artcle" class="page-section portfolio" id="portfolio">
+<section id="artigo" class="page-section portfolio" id="portfolio">
     <div class="container">
         <h2>Artigos</h2>
         <ul class="list-group">
@@ -255,8 +256,8 @@ include_once "menu.php";
     </div>
 </section>
 
-<!-- Portfolio Section-->
-<section class="page-section portfolio" id="portfolio">
+<!-- Seção Portfólio -->
+<section id="portifolio" class="bg-light py-5">
     <div class="container">
         <h2>Portifólio</h2>
         <ul class="list-group">
@@ -267,46 +268,8 @@ include_once "menu.php";
     </div>
 </section>
 
-<!-- About Section-->
-<section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">Sobre</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- About Section Content-->
-        <div class="row">
-            <div class="col-12 ms-auto">
-                <h2><strong>Bootcamps Concluídos: </strong></h2>
-                <ul>
-                    <li><strong><a class="link-light" href="../files/Apps desktop com Electron.pdf" target="_blank">Apps desktop com Electron - Ignite - Rocketseat 🚀</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/Code Update TQI - Backend com Kotlin e Java.pdf" target="_blank">Code Update TQI - Backend com Kotlin e Java - Digital Innovation One ☕</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/Santander Bootcamp 2023 - Backend Java" target="_blank">Santander Bootcamp 2023 - Backend Java - Digital Innovation One 🌟</a></strong></li>
-                </ul>
-            </div>
-            <br>
-            <div class="col-12 ms-auto">
-                <h2><strong>Cursos Proficionalizantes: </strong></h2>
-                <ul>
-                    <li><strong><a class="link-light" href="../files/Configs de Rede em Linux Windows.pdf" target="_blank">Configs de Rede em Linux Windows - DlteC do Brasil </a></strong></li>
-                    <li><strong><a class="link-light" href="../files/CERTIFICADO-INTRA-REDE-EP20-WESLLEY-HENRIQUE-VIEIRA-FERRAZ-71532-233250.pdf" target="_blank">Intra Rede - Nic.br</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/lgpd.pdf" target="_blank"></a>Implementação de LGPD via Metodologia Ágil</strong></li>
-                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">EF Level 12 Upper Intermediate CEFR Level B2 - EF English Live</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">Estatística - Escola Nacional de Administração Pública</a></strong></li>
-                    <li><strong><a class="link-light" href="../files/12 - Pós-Intermediário.pdf" target="_blank">Matemática Financeira - Escola Nacional de Administração Pública</a></strong></li>
-                </ul>
-            </div>
-            <br>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section-->
-<section class="page-section" id="contact">
+<!-- Seção Contato -->
+<section id="contato" class="container my-5">
     <div class="container">
         <!-- Contact Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
@@ -319,13 +282,6 @@ include_once "menu.php";
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
                 <form id="formContato">
                     <!-- Name input-->
                     <div class="form-floating mb-3">

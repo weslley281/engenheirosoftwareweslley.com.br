@@ -1,5 +1,5 @@
 <!-- Footer-->
-<footer class="footer text-center">
+<footer class="bg-dark text-white text-center py-4">
     <div class="container">
         <div class="row">
             <!-- Footer Location-->
@@ -19,10 +19,10 @@
                 <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.linkedin.com/in/weslley-henrique-vieira-ferraz-8b95b3127" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                 <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://github.com/weslley281" target="_blank"><i class="fab fa-fw fa-github"></i></a>
                 <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://api.whatsapp.com/send/?phone=5565999157130&text=Olá%20Gostária%20de%20solicitar%20um%20orçamento&source=https://engenheirosoftwareweslley.com.br&preset=oi&lang=pt-br" target="_blank"><i class="fab fa-fw fa-whatsapp"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.estudonauta.com/aluno/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/estudonalta.png" alt="logo estudonalta"></a>
-                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.dio.me/users/weslleyhenrique800" target="_blank"><img class="img-fluid" src="../files/dio.png" alt="logo da Digital Inovation One" title="Dio"></a>
-                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.coursera.org/user/a69fe8a3c05b5e85a3fa4cbba6c3b992" target="_blank"><img class="img-fluid" src="../files/coursera.png" alt="logo da Coursera" title="Coursera"></a>
-                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://app.rocketseat.com.br/me/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" src="../files/rocketseat.png" alt="logo da Rocketseat" title="Rocketseat"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.estudonauta.com/aluno/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" style="max-width: 18px; height: auto;" src="../files/estudonalta.png" alt="logo estudonalta"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.dio.me/users/weslleyhenrique800" target="_blank"><img class="img-fluid" style="max-width: 18px; height: auto;" src="../files/dio.png" alt="logo da Digital Inovation One" title="Dio"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://www.coursera.org/user/a69fe8a3c05b5e85a3fa4cbba6c3b992" target="_blank"><img class="img-fluid" style="max-width: 18px; height: auto;" src="../files/coursera.png" alt="logo da Coursera" title="Coursera"></a>
+                <a class="btn btn-outline-light btn-social mx-1 mb-3" href="https://app.rocketseat.com.br/me/weslley-henrique-vieira-ferraz" target="_blank"><img class="img-fluid" style="max-width: 18px; height: auto;" src="../files/rocketseat.png" alt="logo da Rocketseat" title="Rocketseat"></a>
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">
@@ -35,17 +35,20 @@
             </div>
         </div>
     </div>
-</footer>
-<!-- Copyright Section-->
-<div class="copyright py-4 text-center text-white">
-    <div class="container"><small>Copyright &copy; Engenheiro de Software Weslley <?php date("Y") ?></small></div>
-</div>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Engenheiro de Software Weslley <?php date("Y") ?>></small></div>
+    </div>
 
+</footer>
+
+<!--
 <script src="../libs/bootstrap/jquery.js"></script>
 <script src="../libs/bootstrap/popper.js"></script>
-<script src="../libs/bootstrap/bootstrap.js"></script>
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../libs/alertifyjs/alertify.js"></script>
-<script src="../libs/tinymce/tinymce.min.js"></script>
+
 
 <script>
     tinymce.init({
