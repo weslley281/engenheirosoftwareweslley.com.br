@@ -29,8 +29,7 @@
                 <h4 class="text-uppercase mb-4">Sobre Mim</h4>
                 <p class="lead mb-0">
                     Sou um grande estudante da área de técnologia como um todo, converse comigo pelo
-                    <a href="https://api.whatsapp.com/send/?phone=5565999157130">whatsapp clicando aqui</a>
-                    .
+                    <a href="https://api.whatsapp.com/send/?phone=5565981233996">whatsapp clicando aqui</a>.
                 </p>
             </div>
         </div>

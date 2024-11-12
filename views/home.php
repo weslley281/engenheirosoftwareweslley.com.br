@@ -31,9 +31,9 @@ include_once "menu.php";
 <section id="servicos" class="container my-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/reparo_computador.jpg" alt="Reparo de Computador">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/reparo_computador.jpg" alt="Reparo de Computador">
                     <div class="card-body">
                         <h5 class="card-title">Manutenção de Computadores</h5>
                         <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
@@ -41,9 +41,9 @@ include_once "menu.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/reparo_notebook.jpg" alt="Reparo de Notebook">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/reparo_notebook.jpg" alt="Reparo de Notebook">
                     <div class="card-body">
                         <h5 class="card-title">Manutenção de Notebooks</h5>
                         <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
@@ -51,9 +51,9 @@ include_once "menu.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/rede_computadores.jpg" alt="Manutenção de Redes de Computadores">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/rede_computadores.jpg" alt="Manutenção de Redes de Computadores">
                     <div class="card-body">
                         <h5 class="card-title">Manutenção de Redes de Computadores</h5>
                         <p class="card-text">Troca, limpeza e melhorias de componentes como: cabos, roteadores, switches, conectores, repetidores em geral.</p>
@@ -61,11 +61,9 @@ include_once "menu.php";
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/data_center.jpg" alt="Manutenção de Servidores">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/data_center.jpg" alt="Manutenção de Servidores">
                     <div class="card-body">
                         <h5 class="card-title">Manutenção de Servidores</h5>
                         <p class="card-text">Troca de peças, limpeza e melhorias de componentes em geral.</p>
@@ -73,9 +71,9 @@ include_once "menu.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/web.jpg" alt="Criação de Sites e Sistemas Web">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/web.jpg" alt="Criação de Sites e Sistemas Web">
                     <div class="card-body">
                         <h5 class="card-title">Criação de Sites e Sistemas Web</h5>
                         <p class="card-text">Desenvolvimento de sites e sistemas web através da programação utilizando as melhores técnologias do mercado.</p>
@@ -83,9 +81,9 @@ include_once "menu.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/img/android.png" alt="Criação de Apps">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
+                <div class="card h-100 p-3 shadow-sm" style="width: 18rem;">
+                    <img class="img-fluid mx-auto rounded" src="../assets/img/android.png" alt="Criação de Apps">
                     <div class="card-body">
                         <h5 class="card-title">Criação de Apps</h5>
                         <p class="card-text">Desenvolvimento de aplicativos para celulares e tablets através da programação utilizando as melhores técnologias do mercado.</p>
@@ -183,6 +181,12 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
+                    <td>Engenheiro de Redes</td>
+                    <td>Ead - CCNA</td>
+                    <td>300 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
                     <td>Nivelamento e o Básico</td>
                     <td>Hackers do Bem</td>
                     <td>80 + 64 hrs</td>
@@ -195,46 +199,40 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
+                    <td>TÉCNICAS DE LIDERANÇA</td>
+                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
+                    <td>20 hrs</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
                     <td>Programador Web</td>
                     <td>Instituto Federal de Educação, Ciência e Tecnologia - IF</td>
                     <td>200 hrs</td>
                     <td>2023</td>
                 </tr>
                 <tr>
-                    <td>Montagem e Manutenção de Computadores</td>
-                    <td>Centro Brasileiro de Cursos - CEBRAC</td>
-                    <td>64 hrs</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Node JS</td>
-                    <td>Rocketseat - Ignite</td>
-                    <td>100 hrs</td>
+                    <td>PHP, JavaScript, C#, C++ e Java</td>
+                    <td>Cod3r - Ensino e Consultoria Ltda</td>
+                    <td>300 hrs</td>
                     <td>2022</td>
                 </tr>
                 <tr>
-                    <td>React Native</td>
+                    <td>Node JS, React Native, React JS, PHP, Java, Python e C#</td>
                     <td>Rocketseat - Ignite</td>
-                    <td>100 hrs</td>
+                    <td>600 hrs</td>
                     <td>2022</td>
-                </tr>
-                <tr>
-                    <td>React JS</td>
-                    <td>Rocketseat - Ignite</td>
-                    <td>100 hrs</td>
-                    <td>2023</td>
                 </tr>
                 <tr>
                     <td>INFORMÁTICA BÁSICA COM INTERNET E MÍDIAS SOCIAIS</td>
                     <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
                     <td>160 hrs</td>
-                    <td>2024</td>
+                    <td>2019</td>
                 </tr>
                 <tr>
-                    <td>TÉCNICAS DE LIDERANÇA</td>
-                    <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
-                    <td>20 hrs</td>
-                    <td>2024</td>
+                    <td>Montagem e Manutenção de Computadores</td>
+                    <td>Centro Brasileiro de Cursos - CEBRAC</td>
+                    <td>64 hrs</td>
+                    <td>2017</td>
                 </tr>
             </tbody>
         </table>
