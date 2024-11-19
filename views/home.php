@@ -109,6 +109,12 @@ include_once "menu.php";
             </thead>
             <tbody>
                 <tr>
+                    <td>AWS Cloud Technology Consultant
+                    </td>
+                    <td>AWS - Coursera</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
                     <td>Programa AWS re/Start</td>
                     <td>Escola da Nuvem</td>
                     <td>2024</td>
