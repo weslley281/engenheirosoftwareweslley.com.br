@@ -22,6 +22,7 @@ include_once "menu.php";
             <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Informática</strong></p>
             <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Manutenções de Computadores</strong></p>
             <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Redes de Computadores</strong></p>
+            <p class="masthead-subheading font-weight-light mb-2"><strong>Técnico em Eletrotécnica</strong></p>
             <p class="masthead-subheading font-weight-light mb-2"><strong>Engenheiro de Software</strong></p>
         </div>
     </div>
@@ -96,68 +97,13 @@ include_once "menu.php";
 </section>
 
 <!-- Certifications Section-->
-<section id="certificacao" class="page-section portfolio">
-    <div class="container">
-        <h2>Certificações</h2>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Cerificação</th>
-                    <th scope="col">Empresa</th>
-                    <th scope="col">Ano</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>AWS Cloud Technology Consultant
-                    </td>
-                    <td>AWS - Coursera</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>Programa AWS re/Start</td>
-                    <td>Escola da Nuvem</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>ADMINISTRAÇÃO DE REDES - CBO 2123-10</td>
-                    <td>CPET - CENTRO DE PROFISSIONALIZAÇÃO E EDUCAÇÃO TÉCNICA</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>Network Engineering</td>
-                    <td>Akamai - Coursera</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>Google IT Support</td>
-                    <td>Google - Coursera</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <td>Cybersecurity Analyst</td>
-                    <td>IBM - Coursera</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Full Stack Software Developer</td>
-                    <td>IBM - Coursera</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <td>PROGRAMAÇÃO DE SISTEMAS DE INFORMAÇÃO</td>
-                    <td>Estácio - Empregabilidade</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td>APLICAÇÃO DA MELHORIA CONTÍNUA</td>
-                    <td>Estácio - Empregabilidade</td>
-                    <td>2024</td>
-                </tr>
-
-            </tbody>
-        </table>
-    </div>
+<section id="certificacao" class="container my-5">
+    <h2>Certificações</h2>
+    <p><strong>AWS Cloud Technology Consultant</strong> - AWS - Coursera (2024)</p>
+    <p><strong>Programa AWS re/Start</strong> - AWS - Coursera (2023)</p>
+    <p><strong>Suporte Técnico</strong> - Google - Coursera (2022)</p>
+    <p><strong>Cyber Segurança</strong> - IBM - Coursera (2022)</p>
+    <p><strong>Engenharia de Redes</strong> - Akamai - Coursera (2021)</p>
 </section>
 
 <!-- Seção Formação -->
@@ -187,10 +133,10 @@ include_once "menu.php";
                     <td>2024</td>
                 </tr>
                 <tr>
-                    <td>Engenheiro de Redes</td>
-                    <td>Ead - CCNA</td>
-                    <td>300 hrs</td>
-                    <td>2024</td>
+                    <td>Técnico em Eletrotécnica</td>
+                    <td>IFMT - Instituto Federal de Mato Grosso</td>
+                    <td>1200 hrs</td>
+                    <td>2026</td>
                 </tr>
                 <tr>
                     <td>Nivelamento e o Básico</td>
@@ -209,12 +155,6 @@ include_once "menu.php";
                     <td>Serviço Nacional de Aprendizagem Comercial - Senac</td>
                     <td>20 hrs</td>
                     <td>2024</td>
-                </tr>
-                <tr>
-                    <td>Programador Web</td>
-                    <td>Instituto Federal de Educação, Ciência e Tecnologia - IF</td>
-                    <td>200 hrs</td>
-                    <td>2023</td>
                 </tr>
                 <tr>
                     <td>PHP, JavaScript, C#, C++ e Java</td>
